@@ -1,5 +1,6 @@
 @extends('layouts.article')
 
 @section('main')
-    Article List
+    <h1>Article List</h1>
+    <a href="{{route('articles.create')}}">add articles</a>
 @endsection
